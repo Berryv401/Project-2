@@ -13,9 +13,21 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
 
-
+"https://holidayapi.com/v1/holidays"
 ```
-{data: {} }
+{data: { "holidays": [
+        {
+            "name": "New Year's Day",
+            "date": "2015-01-01",
+            "observed": "2015-01-01",
+            "public": true,
+            "country": "US",
+            "uuid": "82f78b8a-019e-479e-a19f-99040275f9bf",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },} }
 ```
 
 
