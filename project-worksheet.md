@@ -13,21 +13,9 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
 
-"https://holidayapi.com/v1/holidays"
+"https://api.covid19api.com/summary"
 ```
-{data: { "holidays": [
-        {
-            "name": "New Year's Day",
-            "date": "2015-01-01",
-            "observed": "2015-01-01",
-            "public": true,
-            "country": "US",
-            "uuid": "82f78b8a-019e-479e-a19f-99040275f9bf",
-            "weekday": {
-                "date": {
-                    "name": "Thursday",
-                    "numeric": "4"
-                },} }
+{data: Response: { "Countries": [ { "Country": "Afghanistan", "NewConfirmed": 5, "TotalConfirmed": 16, "NewDeaths": 0, "TotalDeaths": 0, "NewRecovered": 0, "TotalRecovered": 0 }, .. "Date": "2020-03-16T21:10:53.86852587Z" }
 ```
 
 
@@ -61,6 +49,9 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
+| Main | This will pull in data and from the other paths and forward it to the app |
+| Country | This will show the total and new cases in each country |
+| Chart | This will show the growth rates over time from countries |
 | Footer | This will render the header include the nav | 
 
 
@@ -69,8 +60,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Working with API | H | 3hrs| 3.5hrs | 3.5hrs |
+| Routing components | H | 2 hrs | |
+| Formatting data per country | H | 3 hrs | |
+| Creating data graphic.. if possible | H | 3 hrs | |
+| Debugging | H | 4 hrs | |
+| Styling | H | 4 hrs | |
+| Total | H | 22 hrs| hrs | hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
