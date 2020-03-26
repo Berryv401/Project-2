@@ -2,12 +2,12 @@
 
 ## Project Links
 
-- [add your github repo link]()
+- https://github.com/Berryv401/Project-2
 - [add your deployment link]()
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My idea is to make a live website covering the rise of covid 19 cases in the world. Country by country it will show the current confirmed cases and growth rates.
 
 ## API
 
