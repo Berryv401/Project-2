@@ -31,14 +31,19 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP EXAMPLE
+#### MVP 
 - Find and use external api 
-- Render data on page 
+- Render data on page
+- Add a search option each countries cases
+- Add Links to News sources and health articles
+- Page Styling
 - Allow user to interact with the page
+- Final Touches
 
-#### PostMVP EXAMPLE
+#### PostMVP 
 
 - Add localStorage or firebase for storage
+- Add a table or graph visualizing growth rates over time
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -51,7 +56,8 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Header | This will render the header include the nav | 
 | Main | This will pull in data and from the other paths and forward it to the app |
 | Country | This will show the total and new cases in each country |
-| Chart | This will show the growth rates over time from countries |
+| News Sources | This will show the growth rates over time from countries |
+| Post MVP, Graphic | This will be a table or graph showing the rates of spread across the world |
 | Footer | This will render the header include the nav | 
 
 
@@ -63,14 +69,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs| 3.5hrs | 3.5hrs |
 | Routing components | H | 2 hrs | |
 | Formatting data per country | H | 3 hrs | |
+| About page with Links | H | 3 hrs | |
 | Creating data graphic.. if possible | H | 3 hrs | |
 | Debugging | H | 4 hrs | |
 | Styling | H | 4 hrs | |
-| Total | H | 22 hrs| hrs | hrs |
+| Total | H | 25 hrs| hrs | hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
-
+ https://api.covid19api.com/summary, https://api.covid19api.com/, 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
