@@ -23,7 +23,7 @@ Use this section to include info about the API you have chosen and a code snippe
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=M6b130391fa7be69ad317f741455587f01585319342167&projectid=M7222d4eaf3acd63e731d553901a770751585261721549&perm=Owner#/page/3dbb530f263842e689eff9ff7761fc87
+- https://wireframepro.mockflow.com/view/M7222d4eaf3acd63e731d553901a770751585261721549
 - [add link to your react architecture]()
 
 
