@@ -12,6 +12,7 @@ const [summary, setSummary] = useState([])
     getSummary()
   }, []);
 
+  
   const getSummary = async () => {
     const response = await fetch(`https://api.covid19api.com/summary`)
     const data = await response.json()
